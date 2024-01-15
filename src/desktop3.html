@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d6eb98b84f.js" crossorigin="anonymous"></script>
+    <script>
+        function toggleDropdown() {
+            let dropdown = document.querySelector ('#dropdownButton #dropdown');
+            dropdown.classList.toggle("hidden")
+        }
+    </script>
+</head>
+
+<body class="font-sans bg-blue-900">
+    <header class="flex justify-between w-full h-[100px] bg-blue-950 p-5">
+        <div class="flex">
+            <img class="w-[200px] ml-[263px]" src="/asset/Rectangle 25.png" alt="">
+            <h1 class="font-bold text-[18px] mt-5 text-white "><a href="/src/desktop1.html">E-Commerce Buku</a></h1>
+        </div>
+        <nav class="flex text-white mt-5">
+            <div><li class="list-none"><a href="#"><i class="fa-solid fa-gear text-[30px] ml-10"></i></a></li></div>
+            <div><li class="list-none"><a href="#"><i class="fa-solid fa-magnifying-glass text-[30px] ml-10"></i></a></li></div>
+            <div><li class="list-none"><a href="/src/desktop3.html"><i class="fa-solid fa-cart-shopping text-[30px] ml-10"></i></a></li></div>
+            <div id="dropdownButton"><li onclick="toggleDropdown()" class="list-none"><a href="#"><i class="fa-solid fa-user mr-[263px] text-[30px] ml-10"></i></a></li>
+                <div class="bg-blue-600 text-white font-bold mt-10 rounded-md hidden" id="dropdown">
+                    <div class="p-5 border-b-2 hover:bg-blue-800"><a href="/src/desktop4.html">Loremipsum@gmail.com</a></div>
+                    <div class="p-5 border-b-2 hover:bg-blue-800"><a href="/src/desktop2.html">All e Book<br> Dashbord</a></div>
+                    <div class="p-5 hover:bg-blue-800"><a href="#">Sign Out</a></div>
+                </div>              
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="mt-20">
+            <p class="underline text-[30px] text-center font-bold text-white">My Cart (3)</p>
+        </div>
+
+
+        <div class="flex justify-center justify-between gap-5 mt-10 w-[1200px] mx-auto border-b p-5">
+            <div class="flex gap-5">
+                <div>
+                    <img class="w-[200px]" src="/asset/front-view-stacked-books-ladders-education-day.jpg" alt="">
+                </div> 
+                <div class="mt-2">
+                    <p class="text-white text-[22px]">Lorem ipsum dolor sit amet.</p>
+                    <a class="text-red-500 text-[18px]" href="#">Remove</a>   
+                </div>
+            </div>           
+            <div>
+                <p class="font-text text-white text-[25px]">$99</p>
+            </div>
+        </div>
+        <div class="flex justify-center justify-between gap-5 mt-10 w-[1200px] mx-auto border-b p-5">
+            <div class="flex gap-5">
+                <div>
+                    <img class="w-[200px]" src="/asset/front-view-stacked-books-ladders-education-day.jpg" alt="">
+                </div> 
+                <div class="mt-2">
+                    <p class="text-white text-[22px]">Lorem ipsum dolor sit amet.</p>
+                    <a class="text-red-500 text-[18px]" href="#">Remove</a>   
+                </div>
+            </div>           
+            <div>
+                <p class="font-text text-white text-[25px]">$99</p>
+            </div>
+        </div>
+        <div class="flex justify-center justify-between gap-5 mt-10 w-[1200px] mx-auto border-b p-5">
+            <div class="flex gap-5">
+                <div>
+                    <img class="w-[200px]" src="/asset/front-view-stacked-books-ladders-education-day.jpg" alt="">
+                </div> 
+                <div class="mt-2">
+                    <p class="text-white text-[22px]">Lorem ipsum dolor sit amet.</p>
+                    <a class="text-red-500 text-[18px]" href="#">Remove</a>   
+                </div>
+            </div>           
+            <div>
+                <p class="font-text text-white text-[25px]">$99</p>
+            </div>
+        </div>
+        <div class="flex justify-center justify-between gap-5 mt-10 w-[1200px] mx-auto border-b p-5">
+            <p class="text-[20px] font-bold text-white">Total Amount:</p>
+            <p class="text-[20px] font-bold text-white">$297</p>
+        </div>
+        <div class="flex justify-end justify-between gap-5 mt-10 w-[1200px] mx-auto pb-20  p-5">
+            <button class="ml-[800px] pl-20 pr-20 bg-blue-600 p-3 rounded-sm text-white flex">Place Order
+                <i class="fa-solid fa-arrow-right ml-5 mt-1"></i>
+            </button>
+        </div>
+
+
+        <footer class="flex justify-between p-5 text-white text-[18px]">
+            <div class="ml-[400px] mt-10">
+                <p>© 2023 Cek Toko Sebelah. All Right Reserved.</p>
+            </div>
+            <div class="mr-[400px] text-[45px]">
+                <i class="fa-brands fa-instagram ml-3"></i>
+                <i class="fa-brands fa-twitter ml-3"></i>
+                <i class="fa-brands fa-github ml-3"></i>
+    
+            </div>
+        </footer>
+       
+        
+
+
+
+
+    </section>
+
+
+
+<body>
